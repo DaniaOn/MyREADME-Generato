@@ -5,7 +5,48 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const path = require ("path");
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type:"input",
+        name:"title",
+        message:"Please enter your project title?",
+    },
+    {
+        type:"input",
+        name:"description",
+        message:"Please enter the description of your project?",
+    },
+    {
+        type:"input",
+        name:"usage",
+        message:"Please enter the dependencies used?",
+    },
+    {
+        type:"input",
+        name:"contribution",
+        message:"Please enter colaborators usernames?",
+    },
+    {
+        type:"input",
+        name:"test",
+        message:"Please enter steps required to test?",
+    },
+    {
+        type:"input",
+        name:"License",
+        message:"Please enter your project License's message?",
+    },
+    {
+        type:"input",
+        name:"credintial",
+        message:"Please enter your github username?",
+    },
+    {
+        type:"input",
+        name:"email",
+        message:"Please enter your email address?",
+    },
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
