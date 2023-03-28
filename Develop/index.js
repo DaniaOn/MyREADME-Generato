@@ -7,6 +7,12 @@ const path = require ("path");
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        type: 'checkbox', 
+        name: 'license',
+        choices: ["MIT", "GPLv3", "GPL"],
+        message: 'Pick your License.'
+    },
+    {
         type:"input",
         name:"title",
         message:"Please enter your project title?",
