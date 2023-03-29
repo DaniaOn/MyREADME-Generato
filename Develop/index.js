@@ -39,11 +39,6 @@ const questions = [
     },
     {
         type:"input",
-        name:"License",
-        message:"Please enter your project License's message?",
-    },
-    {
-        type:"input",
         name:"credintial",
         message:"Please enter your github username?",
     },
