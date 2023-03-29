@@ -49,7 +49,7 @@ ${description}
 * [License:](#License)
 
 ## Usage
-<br>Video Link <br>${}<br>
+${usage}
 
 ## Testing
 ${test}
